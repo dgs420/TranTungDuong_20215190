@@ -1,0 +1,12 @@
+Question: Is JAVA a Pass by Value or a Pass by Reference programming language?
+-  JAVA is always a pass by value programming language.
+
+To test whether a programming language is passing by value or passing by reference, we usually use the
+swap method. This method aims to swap an object to another object.
+- After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two
+objects still remain?
+ The swap function only does not change the original ones , it changes the references of the copied objects, 
+- After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+When we call changeTitle(), we pass the value of jungleDVD reference to parameter dvd, meaning that dvd points to jungleDVD object.
+In changeTitle method, we set the title of the object that dvd points to (jungleDVD object) to a new title.
+Therefore jungleDVD object will have the new title, and when we get the new title through jungleDVD reference in main, we will see the change.
