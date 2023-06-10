@@ -8,12 +8,7 @@ public class Aims {
 
 	public static void main(String[] args) {
 		Store store = new Store(20);
-//		DigitalVideoDisc dvd = new DigitalVideoDisc("Harry Potterr", "Animation", "Roger Allers", 87, 19.95f);
-//	    Book book = new Book(5, "Harry Potter", "Science Fiction", 9.9f);
-//	    CompactDisc cd = new CompactDisc(10, "Greatest Hits", "Rock", 11f, "Journey", "Micheal Jackson");	
-//		store.addMedia(dvd);
-//		store.addMedia(book);
-//		store.addMedia(cd);
+
 		
 		Cart cart = new Cart();
 		
