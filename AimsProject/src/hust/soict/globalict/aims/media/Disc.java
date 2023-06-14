@@ -1,12 +1,10 @@
-package hust.soict.dsai.aims.media;
+package hust.soict.globalict.aims.media;
 
 public class Disc extends Media{
 	private String director;
 	private int length;
 
-	public Disc() {
-		// TODO Auto-generated constructor stub
-	}
+
 	public Disc(int id,String title) {
 		super(id, title);
 	}

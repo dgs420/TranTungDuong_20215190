@@ -1,11 +1,11 @@
-package hust.soict.dsai.aims.media;
+package hust.soict.globalict.aims.media;
 
 import java.util.Comparator;
 
 public class MediaComparatorByCostTitle implements Comparator<Media>{
 
 	public int  compare(Media media1, Media media2) {
-		// TODO Auto-generated constructor stub
+		
         // Compare by cost first
         int costComparison = Float.compare(media2.getCost(), media1.getCost());
 

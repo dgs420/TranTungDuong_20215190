@@ -1,4 +1,4 @@
-package hust.soict.dsai.aims.media;
+package hust.soict.globalict.aims.media;
 import java.util.Comparator;
 //import java.util.zip.CheckedOutputStream;
 
@@ -52,8 +52,6 @@ public abstract class Media {
         return title.equals(media.title);
     }
 
-	public Media() {
-		// TODO Auto-generated constructor stub
-	}
+	
 
 }

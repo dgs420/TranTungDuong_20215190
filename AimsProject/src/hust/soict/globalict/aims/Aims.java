@@ -1,8 +1,9 @@
-package hust.soict.dsai.aims;
-import hust.soict.dsai.aims.media.*;
+package hust.soict.globalict.aims;
 import java.util.*;
-import hust.soict.dsai.aims.cart.Cart;
-import hust.soict.dsai.aims.store.*;
+
+import hust.soict.globalict.aims.cart.Cart;
+import hust.soict.globalict.aims.media.*;
+import hust.soict.globalict.aims.store.*;
 
 public class Aims {
 

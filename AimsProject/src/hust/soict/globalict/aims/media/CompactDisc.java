@@ -1,4 +1,4 @@
-package hust.soict.dsai.aims.media;
+package hust.soict.globalict.aims.media;
 import java.util.ArrayList;
 
 public class CompactDisc extends Disc  implements Playable{

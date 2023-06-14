@@ -1,6 +1,8 @@
-package hust.soict.dsai.aims.cart;
+package hust.soict.globalict.aims.cart;
 import java.util.Collections;
-import hust.soict.dsai.aims.media.*;
+
+import hust.soict.globalict.aims.media.*;
+
 import java.util.ArrayList;
 
 public class Cart {

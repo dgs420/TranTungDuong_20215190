@@ -1,6 +1,7 @@
-package hust.soict.dsai.test.cart;
-import hust.soict.dsai.aims.media.*;
+package hust.soict.globalict.test.cart;
 import java.util.*;
+
+import hust.soict.globalict.aims.media.*;
 
 public class CartTest2 {
 	
