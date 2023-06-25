@@ -68,10 +68,10 @@ public class CartScreen extends JFrame {
 	    DigitalVideoDisc dvd = new DigitalVideoDisc("Harry Potter", "Animation", "Roger Allers", 87, 19.95f);
 	    cart.addMedia(dvd);
 
-	    Book book = new Book("Harry Potter", "Science Fiction", 9.9f);
+	    Book book = new Book("Tenet", "Science Fiction", 9.9f);
 	    cart.addMedia(book);
 
-	    CompactDisc cd = new CompactDisc("Greatest Hits", "Rock", 11f, "Journey", "Michael Jackson");
+	    CompactDisc cd = new CompactDisc("Album", "Music", 11f, "Me", "Quandale Dingle");
 	    cart.addMedia(cd);
 	    
 	    
