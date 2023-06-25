@@ -54,16 +54,10 @@ public class AddCompactDiscToStoreScreen extends AddItemToStoreScreen{
                 String artist = artistField.getText();  
 
                 CompactDisc newCd;
-//				try {
-					newCd = new CompactDisc(title, category, cost, director, artist);
-					store.addMedia(newCd);
-					JOptionPane.showMessageDialog(null, "CD added successfully!");
-//				} catch (NegativeException e1) {
-//					e1.printStackTrace();
-//				} catch (LimitExceededException e1) {
-//					e1.printStackTrace();
-//				}
-//               
+
+				newCd = new CompactDisc(title, category, cost, director, artist);
+				store.addMedia(newCd);
+				JOptionPane.showMessageDialog(null, "CD added successfully!"); 
             }
         });
 

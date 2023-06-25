@@ -53,15 +53,11 @@ public class AddBookToStoreScreen extends AddItemToStoreScreen {
                 ArrayList<String> authors = new ArrayList<>(Arrays.asList(authorsField.getText().split(",")));
 
                 Book newBook;
-//				try {
-					newBook = new Book(title, category, authors, cost);
-					store.addMedia(newBook);
-					JOptionPane.showMessageDialog(null, "Book added successfully!");
-//				} catch (NegativeException e1) {
-//					e1.printStackTrace();
-//				} catch (LimitExceededException e1) {
-//					e1.printStackTrace();
-//				}
+
+				newBook = new Book(title, category, authors, cost);
+				store.addMedia(newBook);
+				JOptionPane.showMessageDialog(null, "Book added successfully!");
+
                
             }
         });

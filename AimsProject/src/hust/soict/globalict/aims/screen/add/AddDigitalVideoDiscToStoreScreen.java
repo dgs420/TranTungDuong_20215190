@@ -55,15 +55,10 @@ public class AddDigitalVideoDiscToStoreScreen extends AddItemToStoreScreen {
                 int length = Integer.parseInt(lengthField.getText().trim());
 
                 DigitalVideoDisc newDvd;
-//				try {
-					newDvd = new DigitalVideoDisc(title, category, director, length, cost);
-					store.addMedia(newDvd);
-					JOptionPane.showMessageDialog(null, "DVD added successfully!");
-//				} catch (NegativeException e1) {
-//					e1.printStackTrace();
-//				} catch (LimitExceededException e1) {
-//					e1.printStackTrace();
-//				}
+
+				newDvd = new DigitalVideoDisc(title, category, director, length, cost);
+				store.addMedia(newDvd);
+				JOptionPane.showMessageDialog(null, "DVD added successfully!");
                
             }
         });
