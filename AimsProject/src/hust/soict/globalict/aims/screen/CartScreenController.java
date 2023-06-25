@@ -20,22 +20,10 @@ import javafx.scene.control.TableView;
 import javafx.stage.Stage;
 import javafx.scene.Node;
 import javafx.scene.control.cell.PropertyValueFactory;
-
-
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.ListChangeListener;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
-import javafx.scene.control.cell.PropertyValueFactory;
+
 
 public class CartScreenController {
 	private Cart cart;
