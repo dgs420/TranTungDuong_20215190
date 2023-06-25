@@ -1,12 +1,17 @@
-Question: Is JAVA a Pass by Value or a Pass by Reference programming language?
--  JAVA is always a pass by value programming language.
+- Which classes are aggregates of other classes? Checking all constructors of whole classes if they initialize for their parts?
+ CompactDisc is aggregate of Track .
+ Store is aggregate of Media. 
+ Cart is aggregate of Media.
+ 
+- If the passing object is not an instance of Media, what happens?
+equals() returns false if the passing object is not an instance of Media.
 
-To test whether a programming language is passing by value or passing by reference, we usually use the
-swap method. This method aims to swap an object to another object.
-- After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two
-objects still remain?
- The swap function only does not change the original ones , it changes the references of the copied objects, 
-- After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
-When we call changeTitle(), we pass the value of jungleDVD reference to parameter dvd, meaning that dvd points to jungleDVD object.
-In changeTitle method, we set the title of the object that dvd points to (jungleDVD object) to a new title.
-Therefore jungleDVD object will have the new title, and when we get the new title through jungleDVD reference in main, we will see the change.
+What class should implement the Comparable interface?
+- Class Media and its class that inherited from it.
+
+Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+ - No we can't.
+
+Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then cost. How would you modify your code to allow this?
+
+override compareTo() method in DigitalVideoDisc.
